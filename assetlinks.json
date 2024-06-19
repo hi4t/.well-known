@@ -9,11 +9,21 @@
       ]
     }
   },
-    {
+  {
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
       "package_name": "com.enn.easygas.uat",
+      "sha256_cert_fingerprints": [
+        "5D:3C:89:FF:6C:16:81:87:33:B9:3B:ED:55:67:04:19:4B:FA:86:46:4B:1A:B3:0B:4D:CE:15:BD:7A:B7:D1:86"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.enn.easygas",
       "sha256_cert_fingerprints": [
         "5D:3C:89:FF:6C:16:81:87:33:B9:3B:ED:55:67:04:19:4B:FA:86:46:4B:1A:B3:0B:4D:CE:15:BD:7A:B7:D1:86"
       ]
