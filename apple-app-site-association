@@ -1,0 +1,61 @@
+{
+	"applinks": {
+		"details": [{
+				"appIDs": "A59S9BQS5L.com.enn.haoyongqi",
+				"components": [{
+					"/": "/official/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/pages/appDown/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/p/*",
+					"comment": "matches any URL with a path that starts with this"
+				}]
+			},
+			{
+				"appIDs": "A59S9BQS5L.com.enn.haoyongqi-fat",
+				"components": [{
+					"/": "/fat/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/f/*",
+					"comment": "matches any URL with a path that starts with this"
+				}]
+			},
+			{
+				"appIDs": "A59S9BQS5L.com.enn.haoyongqi-uat",
+				"components": [{
+					"/": "/uat/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/u/*",
+					"comment": "matches any URL with a path that starts with this"
+				}]
+			},
+			{
+				"appIDs": "A59S9BQS5L.com.enn.haoyongqi-test",
+				"components": [{
+					"/": "/test/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/t/*",
+					"comment": "matches any URL with a path that starts with this"
+				}]
+			},
+			{
+				"appIDs": "A59S9BQS5L.com.enn.haoyongqi-dev",
+				"components": [{
+					"/": "/dev/*",
+					"comment": "matches any URL with a path that starts with this"
+				}, {
+					"/": "/d/*",
+					"comment": "matches any URL with a path that starts with this"
+				}]
+			}
+		]
+	},
+	"webcredentials": {
+		"apps": ["A59S9BQS5L.com.enn.haoyongqi", "A59S9BQS5L.com.enn.haoyongqi-fat", "A59S9BQS5L.com.enn.haoyongqi-uat", "A59S9BQS5L.com.enn.haoyongqi-test", "A59S9BQS5L.com.enn.haoyongqi-dev"]
+	}
+}
